@@ -1,0 +1,87 @@
+﻿* {
+  margin: 0em;
+  padding: 0em;
+  font-size: 100%;
+  border-style: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: #fff;
+  font-family: "trebuchet ms", calibri, sans-serif;
+}
+
+#wrapper {
+  width: 1024px;
+  background-color: #b0aca7;
+  margin: auto;
+}
+
+nav {
+  background-color: #afaba6;
+  padding: 6px 0px;
+  font-size: 17px;
+  color: #636244;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main a {
+  color: #636244;
+}
+
+section {
+  width: 740px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 17px;
+  color: #525138;
+  margin: 14px;
+}
+
+h2 {
+  margin: 16px;
+  color: #525138;
+  font-size: 17px;
+}
+
+p {
+  margin: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer {
+  width: 450px;
+  margin: auto;
+  padding: 10px 0px 8px 0px;
+  font-size: 11px;
+  color: #fff;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* if min-width then the css inside the breakpoint is applied to screens >480px ...   if max-width then css inside the breakpoint is applied to screens <480px 
+Research other options to develop your responsive design skills */
+
+@media only screen and (min-width: 480px) {
+} /*  end 480px breakpoint  */
