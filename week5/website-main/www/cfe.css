@@ -56,7 +56,6 @@ nav a:hover {
 main {
   display: flex;
   justify-content: space-between;
-  background-color: #b6ef1d;
   height: 520px;
 }
 
