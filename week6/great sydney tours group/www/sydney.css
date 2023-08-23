@@ -1,0 +1,22 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  font-size: 100%;
+  border-style: none;
+  list-style-type: none;
+}
+
+body {
+  width: 970px;
+  font-family: "helvetica", calibri, sans-serif;
+}
+
+nav {
+  background-image: url("images/nav_bg.jpg");
+  width: 970px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
