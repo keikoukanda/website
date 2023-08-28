@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The Town Bookshop, Glebe: Contact</title>
+
+    <meta
+      name="author"
+      content="   Robyn Blainey robyn.blainey2@tafensw.edu.au   "
+    />
+
+    <link rel="stylesheet" href="the_town_bookshop.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="inner-wrapper">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.php">Shop</a></li>
+            <li><a href="staff_picks.html">Staff Picks</a></li>
+            <li><a href="book_club.html">Book Club</a></li>
+            <li><a href="contact.html" id="current">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div id="inside-wrapper">
+          <header>
+            <img
+              src="images/the_town_bookshop_logo.png"
+              width="480"
+              height="446"
+              alt="The Town Bookshop Glebe logo"
+            />
+          </header>
+
+          <main>
+            <h1>Contact</h1>
+            <p>181 Glebe Point Road, Glebe, NSW, 2037</p>
+            <p>
+              Mobile:
+              <a href="tel:123-456-7890">123 456 7890</a>
+            </p>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.3415042115425!2d151.18564471153383!3d-33.88085761957232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae2b2250d2cb%3A0x74802ead72412756!2s181%20Glebe%20Point%20Rd%2C%20Glebe%20NSW%202037!5e0!3m2!1sen!2sau!4v1693201929257!5m2!1sen!2sau"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <form action="contact.php" method="post">
+              <h1>Contact Us</h1>
+              <p>* required</p>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                maxlength="30"
+                required
+              />
+              <label for="mobile">Mobile:</label>
+              <input type="text" id="mobile" name="mobile" maxlength="11" />
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" maxlength="40" />
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" maxlength="1500"></textarea>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  id="check"
+                  value="commision"
+                />
+                <label for="check">Send promotion to me</label>
+              </div>
+              <input type="submit" value="Send" />
+            </form>
+          </main>
+        </div>
+
+        <footer>
+          <ul>
+            <li>&copy; The Town Bookshop 202x</li>
+            <li>
+              <a href="https://www.twitter.com/The_Town_Bookshop"
+                ><img
+                  src="images/twitter.png"
+                  width="24"
+                  height="24"
+                  alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/The_Town_Bookshop"
+                ><img
+                  src="images/facebook.png"
+                  width="24"
+                  height="24"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li><a href="privacy.html">privacy</a></li>
+            <li><a href="email.php">email</a></li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

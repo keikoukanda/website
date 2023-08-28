@@ -1,0 +1,115 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  font-size: 100%;
+  border-style: none;
+  list-style-type: none;
+}
+
+/* Basic styling */
+body {
+  background-image: url("images/dangerous_grimorous_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7; /* Background color in case image is interrupted */
+  background-position: center top; /* Position the image at the top center of the window */
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#primary {
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px; /* Adjust as needed */
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#column1 {
+  flex-basis: 70%;
+  padding-right: 20px;
+}
+
+#column2 {
+  flex-basis: 28%;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+footer li {
+  margin: 0 15px;
+}
+
+/* Additional styles */
+h1,
+h2,
+h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  #column1,
+  #column2 {
+    flex-basis: auto;
+    padding: 0;
+  }
+}
