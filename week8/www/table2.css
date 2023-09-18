@@ -1,0 +1,115 @@
+* {
+  margin: 0em;
+  padding: Oem;
+  font-size: 100%;
+  border-style: none;
+}
+
+/* table css */
+#table1 table {
+  margin: 20px 20px;
+  width: 500px;
+  border-collapse: collapse;
+  font: helvetica, "calibri";
+}
+
+#table2 table {
+  margin: 20px 20px;
+  width: 500px;
+  border-collapse: collapse;
+  font: helvetica, "calibri";
+}
+
+#table3 table {
+  margin: 20px 20px;
+  width: 340px;
+  border-collapse: collapse;
+  font: "trebuchet ms", helvetica, "calibri";
+}
+
+#table4 table {
+  margin: 20px 20px;
+  width: 600px;
+  border-collapse: collapse;
+  font: "trebuchet ms", helvetica, "calibri";
+}
+
+/* add caption rules */
+#table1 caption {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #7e062e;
+  border-bottom: 0px;
+  background-color: #adad84;
+  font-size: 20px;
+  color: #5c5c31;
+  font-weight: bold;
+  padding: 2px 2px;
+}
+
+#table2 caption {
+  text-align: center;
+  background-color: #eee;
+  color: #475f77;
+  border: 1px solid #8ebbb5;
+  border-bottom: 0px;
+  font-weight: bold;
+  padding: 2px 2px;
+}
+
+#table3 caption {
+  text-align: left;
+  color: #400f18;
+  font-weight: bold;
+  padding: 2px 2px;
+}
+
+#table4 caption {
+  text-align: center;
+  color: #475f77;
+  font-weight: bold;
+  padding: 2px 2px;
+}
+
+/* th css */
+#table1 table th {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #000;
+  border: 1px solid #7e062e;
+}
+
+#table2 table th {
+  text-align: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #475f77;
+  border: 1px solid #8ebbb5;
+}
+
+#table3 table th {
+  text-align: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+#table1 table td {
+  color: #000;
+  padding-left: 4px;
+  border: 1px solid #7e062e;
+  text-align: left;
+}
+
+#table2 table td {
+  color: #8c828b;
+  border: 1px solid #8ebbb5;
+}
+
+#table3 table td {
+  color: #000;
+  border-bottom: 1px solid #000;
+}

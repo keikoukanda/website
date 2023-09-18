@@ -7,16 +7,91 @@
 }
 
 body {
-  width: 970px;
-  font-family: "helvetica", calibri, sans-serif;
+  font-family: "helvetica", "calibri", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #0099cc;
+  text-align: center;
+  padding: 20px 0;
 }
 
 nav {
-  background-image: url("images/nav_bg.jpg");
-  width: 970px;
+  background-color: #333;
 }
 
 nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  width: 970px;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#column1 {
+  flex: 1;
+  padding-right: 20px;
+}
+
+#column2 {
+  display: block;
+  padding-top: 20px; /* Add some space between columns */
+  flex-direction: row;
+}
+
+#column2 li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Styling for social media icons */
+footer img {
+  vertical-align: middle;
+}
+
+/* Styling for links */
+a {
+  color: #0099cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

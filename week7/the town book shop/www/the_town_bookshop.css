@@ -12,6 +12,19 @@ body {
   background-color: #fff;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
+address {
+  margin-bottom: 10px;
+}
+
+main a {
+  color: #ed6f0f;
+  text-decoration: none;
+}
+
 #wrapper {
   width: 1120px;
   margin: auto;
@@ -86,13 +99,15 @@ form {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  width: 300px;
+  width: 400px;
+  border: 1px solid black;
 }
 
 input[type="text"],
 textarea {
   max-width: 300px;
   min-width: 300px;
+  max-height: 600px;
   padding: 12px;
   margin-bottom: 15px;
   border: 1px solid #000000;

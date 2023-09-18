@@ -1,0 +1,30 @@
+* {
+  margin: 0em;
+  padding: Oem;
+  font-size: 100%;
+  border-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+/* add caption rules */
+caption {
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  margin: 20px Opx;
+}
+table th {
+  text-align: left;
+  background-color: #3c6070;
+  color: #fff;
+  padding: 4px 30px 4px 8px;
+}
+table td {
+  border: 1px solid #3e3e3e;
+  padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #e7edf0;
+}
